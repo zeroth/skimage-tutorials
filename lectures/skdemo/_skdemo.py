@@ -180,7 +180,7 @@ def mean_filter_demo(image, vmax=1):
             filtered = image if i_step == 0 else image_cache[-1][1]
             filtered = filtered.copy()
 
-            (i, j), mask, subimage = iter_kernel_and_subimage.next()
+            (i, j), mask, subimage = next(iter_kernel_and_subimage)
             filter_overlay = color.label2rgb(mask, image, bg_label=0,
                                              colors=('yellow', 'red'))
             filtered[i, j] = np.sum(mean_factor * subimage)
