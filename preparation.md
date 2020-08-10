@@ -40,6 +40,8 @@ required packages installed in order to participate fully.
   ...
   ```
 
+  The traditional Jupyter notebook interface is more stable than Jupyter Lab and is recommended for this workshop.
+
 ## Download lecture material
 
 
@@ -50,7 +52,7 @@ https://github.com/jni/skimage-tutorials. You need a specific branch,
 so use the command:
 
 ```
-git clone --depth 1 --single-branch --branch monash-df2020-05 https://github.com/jni/skimage-tutorials
+git clone --depth 1 --single-branch --branch monash-df-2020-08 https://github.com/jni/skimage-tutorials
 ```
 
 We may make editorial corrections to the material until the day before
@@ -60,7 +62,7 @@ the workshop, so please execute `git pull` to update before class.
 
 Download the file at:
 
-https://github.com/jni/skimage-tutorials/archive/monash-df2020-05.zip
+https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08.zip
 
 Unzip it, then start a jupyter notebook inside the archive.
 
@@ -87,16 +89,16 @@ On my computer, I see (but your version numbers may differ):
 ## After the workshop
 
 We will upload our completed notebooks to the
-`monash-df2020-05-completed` branch. You can download it with git using:
+`monash-df-2020-08-completed` branch. You can download it with git using:
 
 ```
 git commit -a -m "Work completed in class"
-git fetch origin monash-df2020-05-completed
-git switch monash-df2020-05-completed
+git fetch origin monash-df-2020-08-completed
+git switch monash-df-2020-08-completed
 ```
 
 Or you can download them directly at:
 
-https://github.com/jni/skimage-tutorials/archive/monash-df2020-05-completed.zip
+https://github.com/jni/skimage-tutorials/archive/monash-df-2020-08-completed.zip
 
 

@@ -7,7 +7,7 @@ Launch the tutorial notebooks directly with MyBinder now:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/scikit-image/skimage-tutorials/master?filepath=index.ipynb)
 
-Or you can setup and run on your local machine:
+Or you can set up and run on your local machine:
 1. [Follow the preparation instructions](preparation.md)
 2. Start the notebook server *from the same directory as this README*
    with `jupyter notebook`
