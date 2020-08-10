@@ -13,8 +13,14 @@ required packages installed in order to participate fully.
   If you are new to Python, please install the
   [Anaconda distribution](https://www.anaconda.com/distribution/) for
   **Python version 3** (available on OSX, Linux, and Windows).
-  Everyone else, feel free to use your favorite distribution, but
-  please ensure the requirements below are met:
+  You will also need to install [napari](https://napari.org), using
+  either `pip install napari` or `conda install -c conda-forge napari`.
+  Make sure you execute those commands in the appropriate environment. If you
+  are not sure what that means, it might be a good idea to come early to the
+  session to ask the organisers for help.
+
+  If you are comfortable with environments, feel free to use your favorite
+  distribution, but please ensure the requirements below are met:
 
   - scikit-image >= 0.17
   - numpy >= 1.12
@@ -24,6 +30,14 @@ required packages installed in order to participate fully.
   - scikit-learn >= 0.18
   - pandas >= 0.25
   - napari >= 0.3
+
+  We have provided a conda environment that should work well for the workshop,
+  see `environment.yml`. You can create it with:
+
+  ```bash
+  conda env create -f environment.yml
+  conda activate skimage-tutorial
+  ```
 
   Please see "Test your setup" below.
 
