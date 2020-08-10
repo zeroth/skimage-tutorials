@@ -48,11 +48,10 @@ required packages installed in order to participate fully.
 ### Option 1: using git
 
 If you are familiar with git, you can clone the repository at
-https://github.com/jni/skimage-tutorials. You need a specific branch,
-so use the command:
+https://github.com/jni/skimage-tutorials.
 
 ```
-git clone --depth 1 --single-branch --branch monash-df-2020-08 https://github.com/jni/skimage-tutorials
+git clone --depth 1 https://github.com/jni/skimage-tutorials
 ```
 
 We may make editorial corrections to the material until the day before
@@ -81,7 +80,7 @@ On my computer, I see (but your version numbers may differ):
 [✓] notebook      6.0.3
 [✓] scikit-learn  0.23.0rc1
 [✓] pandas        1.0.3
-[✓] napari        0.3.0
+[✓] napari        0.3.6
 ```
 
 **If you do not have a working setup, please contact the instructors.**
