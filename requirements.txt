@@ -5,4 +5,4 @@ matplotlib >= 2.1
 notebook >= 4.0
 scikit-learn >= 0.18
 pandas >= 0.25
-napari >= 0.3
+napari >= 0.3.4

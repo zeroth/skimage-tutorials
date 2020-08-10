@@ -1,0 +1,14 @@
+name: skimage-tutorials
+channels:
+- conda-forge
+dependencies:
+- python=3.8
+- numpy
+- scipy
+- scikit-image
+- ipython
+- matplotlib
+- jupyter
+- notebook
+- napari
+- pandas
